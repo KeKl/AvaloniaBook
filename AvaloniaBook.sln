@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-1", "Chapter-1", "{7862A4FD-37E6-41D2-AD0C-3F0BF96A2274}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter-1\1_0_Intro.md = Chapter-1\1_0_Intro.md
+		Chapter-1\1_1_Platform.md = Chapter-1\1_1_Platform.md
+		Chapter-1\1_2_XAML.md = Chapter-1\1_2_XAML.md
+		Chapter-1\1_3_Avalonia_Properties.md = Chapter-1\1_3_Avalonia_Properties.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-2", "Chapter-2", "{30F54AB8-C335-49D8-943A-737A0B9400C4}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter-2\2_0_Fundamentals.md = Chapter-2\2_0_Fundamentals.md
+		Chapter-2\2_1_SizingPositioning.md = Chapter-2\2_1_SizingPositioning.md
+		Chapter-2\2_2_Layout.md = Chapter-2\2_2_Layout.md
+		Chapter-2\2_3_Transformation.md = Chapter-2\2_3_Transformation.md
+		Chapter-2\2_4_Events.md = Chapter-2\2_4_Events.md
+		Chapter-2\2_5_CreateApplication.md = Chapter-2\2_5_CreateApplication.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-3", "Chapter-3", "{89EBCDBF-EBB1-4470-AB08-3FD2D44834A6}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter-3\3_0_Controls.md = Chapter-3\3_0_Controls.md
+		Chapter-3\3_1_Window.md = Chapter-3\3_1_Window.md
+		Chapter-3\3_2_UserControl.md = Chapter-3\3_2_UserControl.md
+		Chapter-3\3_3_ContentControls.md = Chapter-3\3_3_ContentControls.md
+		Chapter-3\3_4_ItemsControls.md = Chapter-3\3_4_ItemsControls.md
+		Chapter-3\3_5_OtherControls.md = Chapter-3\3_5_OtherControls.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-4", "Chapter-4", "{F155B3EA-EEAF-4AB2-8B13-B328C6CA0666}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter-4\4_0_DiggingDeeper.md = Chapter-4\4_0_DiggingDeeper.md
+		Chapter-4\4_1_Resources.md = Chapter-4\4_1_Resources.md
+		Chapter-4\4_2_DataBinding.md = Chapter-4\4_2_DataBinding.md
+		4_3_Behaviours.md = 4_3_Behaviours.md
+		Chapter-4\Animations.md = Chapter-4\Animations.md
+		Chapter-4\Styles_Templates_Themes.md = Chapter-4\Styles_Templates_Themes.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-5", "Chapter-5", "{11D6F385-56BF-4E24-AF58-8D12C165F7EB}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter-5\5_0_AdvancedStuff.md = Chapter-5\5_0_AdvancedStuff.md
+		Chapter-5\5_1_Interoperability.md = Chapter-5\5_1_Interoperability.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_3_Avalonia_Properties", "Source\1_3_Avalonia_Properties\1_3_Avalonia_Properties.csproj", "{9D041BBB-3A63-4888-8CB3-B2901D99AA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_5_CreateApplication_Ex1", "Source\2_5_CreateApplication_Ex1\2_5_CreateApplication_Ex1.csproj", "{7BF48D68-F4E8-423B-BF52-E9AAD7808771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_3_ContentControls_Button", "Source\3_3_ContentControls_Button\3_3_ContentControls_Button.csproj", "{AF153FAF-66B8-48FA-965B-6F2956C3EA98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book", "Book", "{7947DD64-7985-456F-AE79-69887237BF48}"
+	ProjectSection(SolutionItems) = preProject
+		Links.md = Links.md
+		ToC.md = ToC.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D041BBB-3A63-4888-8CB3-B2901D99AA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D041BBB-3A63-4888-8CB3-B2901D99AA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D041BBB-3A63-4888-8CB3-B2901D99AA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D041BBB-3A63-4888-8CB3-B2901D99AA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF48D68-F4E8-423B-BF52-E9AAD7808771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF48D68-F4E8-423B-BF52-E9AAD7808771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF48D68-F4E8-423B-BF52-E9AAD7808771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF48D68-F4E8-423B-BF52-E9AAD7808771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF153FAF-66B8-48FA-965B-6F2956C3EA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF153FAF-66B8-48FA-965B-6F2956C3EA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF153FAF-66B8-48FA-965B-6F2956C3EA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF153FAF-66B8-48FA-965B-6F2956C3EA98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7862A4FD-37E6-41D2-AD0C-3F0BF96A2274} = {7947DD64-7985-456F-AE79-69887237BF48}
+		{30F54AB8-C335-49D8-943A-737A0B9400C4} = {7947DD64-7985-456F-AE79-69887237BF48}
+		{89EBCDBF-EBB1-4470-AB08-3FD2D44834A6} = {7947DD64-7985-456F-AE79-69887237BF48}
+		{F155B3EA-EEAF-4AB2-8B13-B328C6CA0666} = {7947DD64-7985-456F-AE79-69887237BF48}
+		{11D6F385-56BF-4E24-AF58-8D12C165F7EB} = {7947DD64-7985-456F-AE79-69887237BF48}
+		{9D041BBB-3A63-4888-8CB3-B2901D99AA45} = {7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}
+		{7BF48D68-F4E8-423B-BF52-E9AAD7808771} = {7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}
+		{AF153FAF-66B8-48FA-965B-6F2956C3EA98} = {7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}
+	EndGlobalSection
+EndGlobal

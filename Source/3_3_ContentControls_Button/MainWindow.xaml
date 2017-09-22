@@ -1,0 +1,41 @@
+﻿<Window x:Class="_3_3_ContentControls_Button.MainWindow"
+        xmlns="https://github.com/avaloniaui" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:_3_3_ContentControls_Button;assembly=3_3_ContentControls_Button"
+        xmlns:i="clr-namespace:Avalonia.Xaml.Interactivity;assembly=Avalonia.Xaml.Interactivity" 
+        xmlns:ia="clr-namespace:Avalonia.Xaml.Interactions.Core;assembly=Avalonia.Xaml.Interactions" 
+        Width="400" Height="300" 
+        Title="3_3_ContentControls_Button">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+    
+    <StackPanel>
+        <Button x:Name="button1" Margin="5" Content="I am a Button!" Command="{Binding ClickCommand}" CommandParameter="{Binding}">
+            <i:Interaction.Behaviors>
+                <ia:EventTriggerBehavior EventName="Click" SourceObject="{Binding #button1}">
+                    <ia:InvokeCommandAction Command="{Binding ButtonClickEventCommand}"/>
+                </ia:EventTriggerBehavior>
+            </i:Interaction.Behaviors>
+        </Button>
+                
+        <!--<RepeatButton Margin="5" Content="I am a RepeatButton!" />-->
+        <ToggleButton Margin="5" Content="I am a ToggleButton!" />
+
+        <StackPanel>
+            <RadioButton Margin="5" Content="Option 1 of group 1!" />
+            <RadioButton Margin="5" Content="Option 2 of group 1!" />
+            <RadioButton Margin="5" Content="Option 3 of group 1!" />
+        </StackPanel>
+        
+        <StackPanel>
+            <RadioButton Margin="5" Content="Option 1 of group 2!" />
+            <RadioButton Margin="5" Content="Option 2 of group 2!" />
+        </StackPanel>
+
+        <CheckBox Margin="5" Content="I am a CheckBox!" />
+        <CheckBox Margin="5" Content="I am also a CheckBox!" />
+
+    </StackPanel>
+</Window>
