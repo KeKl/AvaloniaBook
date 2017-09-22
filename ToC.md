@@ -2,7 +2,7 @@
 
 > Sections without a link are under development
 
-1. [Chapter 1 - Intro](#/Chapter-1/1_0_Intro.md)
+1. [Chapter 1 - Intro](#./Chapter-1/1_0_Intro.md)
    1. Platform
    2. [XAML](#/Chapter-1/1_2_XAML.md)
    3. [Avalonia Properties](#/Chapter-1/1_3_Avalonia_Properties.md)

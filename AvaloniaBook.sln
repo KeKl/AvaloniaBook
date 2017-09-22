@@ -38,7 +38,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter-4", "Chapter-4", "{
 		Chapter-4\4_0_DiggingDeeper.md = Chapter-4\4_0_DiggingDeeper.md
 		Chapter-4\4_1_Resources.md = Chapter-4\4_1_Resources.md
 		Chapter-4\4_2_DataBinding.md = Chapter-4\4_2_DataBinding.md
-		4_3_Behaviours.md = 4_3_Behaviours.md
+		Chapter-4\4_3_Behaviours.md = Chapter-4\4_3_Behaviours.md
 		Chapter-4\Animations.md = Chapter-4\Animations.md
 		Chapter-4\Styles_Templates_Themes.md = Chapter-4\Styles_Templates_Themes.md
 	EndProjectSection
