@@ -13,15 +13,18 @@ for starting programming with avalonia.
 
 The main routine for creating an app and starting a window looks like:
 
+```C#
     static void Main(string[] args)
     {
         AppBuilder.Configure<App>()
             .UsePlatformDetect()
             .Start<MainWindow>();
     }
+```
 
 The `MainWindow` is just a class derived from `Window`.
 
+```C#
     public class MainWindow : Window
     {
         public MainWindow()
@@ -29,6 +32,7 @@ The `MainWindow` is just a class derived from `Window`.
             Title = "This is my first avalonia window!";
         }
     }
+```
 
 ### The app builder class
 
@@ -39,47 +43,65 @@ build your app with the methods provided.
 The method `Configure` has two overloads. One which will takes an instance of the application class 
 and one that creates an instance of the application class for you:
 
+```C#
     public static AppBuilder Configure(Application app);
     public static AppBuilder Configure<TApp>() where TApp : Application, new();
+```
 
 The `UsePlatformDetect` method Instructs the `Appbuilder` to use the best settings for the platform. 
 This method should be used over the other methods: `UseWindowSubsystem` and `UseRenderingSubsystem`.
 
+```C#
     public AppBuilder UsePlatformDetect();
+```
 
 In the `UseWindowSubsystem` methods you can specify which window subsystem you want to use.
 
+```C#
     public TAppBuilder UseWindowingSubsystem(string dll);
     public TAppBuilder UseWindowingSubsystem(Action initializer, string name = "");
+```
 
 The `UseRenderingSubsystem` can be used for specifying the rendering subsystem. 
 
+```C#
     public AppBuilder UseRenderingSubsystem(string dll);
     public AppBuilder UseRenderingSubsystem(Action initializer, string name = "");
+```
 
 The `AfterSetup` method takes a callback as an argument which will be called **after** the application is configured.
 
+```C#
     public AppBuilder AfterSetup(Action<TAppBuilder> callback); 
+```
 
 The `BeforeStarting` method takes a callback as an argument which will be called **before** the application starts.
 
+```C#
     public AppBuilder BeforeStarting(Action<TAppBuilder> callback);
+```
 
 There are two ways for starting the application
 
+```C#
     public AppBuilder SetupWithoutStarting();
+```
 
 which setups the application without running it. The application can be runned in this way
 
+```C#
     builder.Instance.RunWithMainWindow<TMainWindow>();
+```
 
 and the other way is
 
+```C#
     public void Start<TMainWindow>(Func<object> dataContextProvider = null) 
         where TMainWindow : Window, new();
 
     public void Start<TMainWindow>(TMainWindow mainWindow, Func<object> dataContextProvider = null) 
         where TMainWindow : Window;
+```
 
 which creates an instance of the window class or takes an instance, runs the application and start the window. 
 The dataContextProvideris a delegate that will be called to create a data context for the window.

@@ -5,7 +5,7 @@ ItemsControls store their content in an property named ***Items*** which is an I
 
 The ***ItemsPanel*** property can be used to define which layout panel should be used to arrange the items in the items property. Every control can be used that implement the IPanel interface (see Chapter 2.2 Layout).
 
-```xml
+```XML
 <ListBox>
 	<ListBox.ItemsPanel>
 		<ItemsPanelTemplate>
@@ -29,7 +29,7 @@ SelectedItemProperty and AutoScrollToSelectedItemProperty. As the name suggests 
 
 Normally you fill the TreeView with TreeViewItems. TreeViewItem is a headered items control. TreeViewItem’s Header property contains the current item, and its Items collection contains sub items. It adds additional properties to the headered items control: IsExpandedProperty and IsSelectedProperty.
 
-```xml
+```XML
 <TreeView>
 	<TreeViewItem Header="Fruits">
 		<TreeViewItem Header="Apple" />

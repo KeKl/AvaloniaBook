@@ -29,11 +29,15 @@ The base class `Button` contains following Avalonia properties:
 
 Following example shows a button with a binded command.
 
+```XML
     <Button Content="I am a Button!" Command="{Binding ClickCommand}" CommandParameter={Binding} />
+```
 
 In the view model there is a ClickCommand.
 
+```C#
     public ReactiveCommand<object> ClickCommand { get; set; }
+```
 
 With "Binding" without specifying any path you get the ViewModel in the argument of the executing method.
 
@@ -46,8 +50,10 @@ not implemented yet...
 The `ToggleButton` has the additional property `IsChecked` which also changes the style of
 the button (see Figure 3.3.X).
 
+```XML
     <ToggleButton Content="I am a ToggleButton!" />
     <ToggleButton Content="I am a checked ToggleButton!" IsChecked="true" />
+```
 
 <center><img src="./images/toggle-button.png" alt="Figure 3.3.X - Toggle Button"></center>
 <center>Figure 3.3.X - Toggle Button</center>
@@ -57,6 +63,7 @@ the button (see Figure 3.3.X).
 `RadioButton` inherits from `ToggleButton` so it also has the `IsChecked` property.
 It can be grouped. The grouping takes place under the parent control.
 
+```XML
     <!--Group 1-->
     <StackPanel>
         <RadioButton Content="I am a RadioButton!" />
@@ -68,6 +75,7 @@ It can be grouped. The grouping takes place under the parent control.
        <RadioButton Content="I am a RadioButton!" />
         <RadioButton Content="I am a RadioButton 2!" />
     </StackPanel>
+```
 
 <center><img src="./images/radio-button.png" alt="Figure 3.3.X - Toggle Button"></center>
 <center>Figure 3.3.X - Toggle Button</center>
@@ -76,5 +84,15 @@ It can be grouped. The grouping takes place under the parent control.
 
 `CheckBox` inherits from `ToggleButton`  so it also has the `IsChecked` property.
 
+```XML
+    <CheckBox Margin="5" Content="I am a CheckBox!" />
+```
+
 <center><img src="./images/checkbox-button.png" alt="Figure 3.3.X - Toggle Button"></center>
 <center>Figure 3.3.X - Toggle Button</center>
+
+### ToolTip
+
+
+
+### Expander
