@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_2_Layout", "Source\2_2_La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_3_Behaviours", "Source\4_3_Behaviours\4_3_Behaviours.csproj", "{7DF0BAC1-6266-4D50-9102-5AEEA12963FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_3_ContentControls_ToolTip_Expander", "Source\3_3_ContentControls_ToolTip\3_3_ContentControls_ToolTip_Expander.csproj", "{31855E54-AEE4-4CB7-9D3C-D7FD41B47B4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{7DF0BAC1-6266-4D50-9102-5AEEA12963FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF0BAC1-6266-4D50-9102-5AEEA12963FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF0BAC1-6266-4D50-9102-5AEEA12963FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31855E54-AEE4-4CB7-9D3C-D7FD41B47B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31855E54-AEE4-4CB7-9D3C-D7FD41B47B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31855E54-AEE4-4CB7-9D3C-D7FD41B47B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31855E54-AEE4-4CB7-9D3C-D7FD41B47B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,5 +112,6 @@ Global
 		{AF153FAF-66B8-48FA-965B-6F2956C3EA98} = {7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}
 		{F9BCA0DC-57A8-41B7-A2D5-2C411D72B13D} = {7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}
 		{7DF0BAC1-6266-4D50-9102-5AEEA12963FD} = {7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}
+		{31855E54-AEE4-4CB7-9D3C-D7FD41B47B4E} = {7C026CF9-0F8D-4955-8A8D-FA7C0478FE42}
 	EndGlobalSection
 EndGlobal

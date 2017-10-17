@@ -93,6 +93,26 @@ It can be grouped. The grouping takes place under the parent control.
 
 ### ToolTip
 
+The `ToolTip` control holds its content in a floating box that appears when you hover over
+an associated control and disappears when you move the mouse away.
 
+    <Button ToolTip.Tip="Hello Tip.">
+        Hello
+    </Button>
 
 ### Expander
+
+The `Expander` type inherits from `HeaderedContentControl` so it has the `Header` Avalonia property.
+An interesting property is the `ExpandDirection` which can have following values:
+- Down, 
+- Up, 
+- Left, 
+- Right
+
+The `IsExpanded` property tells you whether or not the expander is "open".
+
+The most interesting property is `ContentTransition` which let you bind to a type of `IPageTransition` 
+where you can specify how the animations the expander expands looks like. The default implementation is `CrossFade`.
+
+<center><img src="./images/expander.png" alt="Figure 3.3.X - Toggle Button"></center>
+<center>Figure 3.3.X - Expander</center>
